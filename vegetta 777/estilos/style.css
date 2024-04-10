@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(20deg, rgb(128, 0, 90), rgb(138, 43, 227));
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor{
+    background-color: rgb(233, 184, 229);
+    position: "relative";
+    width: 450px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.img-fondo{
+    width: 450px;
+    height: 200px;
+    border-radius: 10px;
+}
+.imagen{
+    position: relative;
+    top:-15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.texto{
+    position: relative; 
+    justify-content: center;
+    top: -18%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.perfil{
+    width: 160px;
+    height: 140px;
+    border-radius: 60%;
+}
+.button{
+    display: flex;
+    
+}
